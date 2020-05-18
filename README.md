@@ -14,6 +14,9 @@ const config = {
         user: 'USERNAME',
         password: 'PASSWORD',
         host: 'DB_HOST'
+    },
+    jwt: {
+        secret: 'SECRET_STRING'
     }
 };
 
