@@ -22,7 +22,7 @@ const config = {
 
 module.exports = config;
 ```
-
+Make sure to adjust Headers in app.js file according to your needs
 ### Compiles and hot-reloads for development
 ```
 npm start
