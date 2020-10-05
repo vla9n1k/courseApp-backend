@@ -19,7 +19,6 @@ const config = {
         secret: 'SECRET_STRING'
     }
 };
-
 module.exports = config;
 ```
 Make sure to adjust Headers in app.js file according to your needs
