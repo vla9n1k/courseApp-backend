@@ -7,7 +7,7 @@ try {
         host: config.db.host,
     });
 } catch (e) {
-    throw new Error("Ca not connect to database")
+    throw new Error("Can not connect to database")
 }
 
 module.exports = sequelize;
