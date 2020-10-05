@@ -5,7 +5,6 @@ try {
     sequelize = new Sequelize(config.db.name, config.db.user, config.db.password, {
         dialect: 'mysql',
         host: config.db.host,
-        logging: false
     });
 } catch (e) {
     throw new Error("Ca not connect to database")
